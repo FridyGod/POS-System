@@ -1,6 +1,9 @@
 p > em{
-    color: green
+    color: green;
 }
 #dh li{
-    display: inline
+    display: inline;
+}
+#dh a{
+    color: orange;
 }
