@@ -10,3 +10,4 @@ p > em{
 img[title="s"]{
     border: 20px solid green;
 }
+a::active{color: red}
