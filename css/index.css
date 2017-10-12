@@ -7,3 +7,6 @@ p > em{
 #dh a{
     color: orange;
 }
+img[title="s"]{
+    border: 20px solid green;
+}
