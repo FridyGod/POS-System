@@ -11,3 +11,14 @@ img[title="s"]{
     border: 20px solid green;
 }
 a::active{color: red}
+p.sp{
+    border: 1px solid blue;
+    margin-top: 0;
+}
+span.line{
+    border: 4px solid red;
+    border-bottom-color: yellow;
+    border-left-width: 1px;
+    padding-left: 16px;
+    margin-left: 10px
+}
