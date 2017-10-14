@@ -1,59 +1,35 @@
-body{
-    background-image: url(../img/bg.jpeg);
-    background-size: cover;
-    background-attachment: fixed;
+*{
+    margin: 0;padding: 0;word-wrap: break-word;
 }
-#div1{
-    width: 25%;
-    background-color: #ff00aa;
-    float: left;
-    overflow: hidden;
+.min{
+    min-width: 600px;
+    max-width: 1100px;
+    margin: 0 auto;
 }
-#div2{
-    width: 50%;
-    background-color: #af0;
+#three{
+    width: 100%;
     float: left;
 }
-#div3{
-    width: 25%;
-    background-color: #0af;
+#two{
+    width: 100%;
     float: left;
-    position: relative;
-    top: -20px;
+    margin-right: -210px;
 }
-#an{ background-image: url(../img/s.png);width: 42px;height: 40px}
-/*clearfix是将浮动元素与非浮动同胞元素分开的最佳实现，无后遗症*/
-.clearfix::after{
-    content: ".";
-    display:block;
-    height: 0;
-    visibility: hidden;
-    clear:both;
-}
-p > em{
-    color: green;
-}
-#dh li{
-    display: inline;
-}
-#dh a{
-    color: orange;
-}
-img[title="s"]{
-    border: 20px solid green;
-}
-a::active{color: red}
-p.sp{
+nav{
+    width: 150px;
+    float: left;
     border: 1px solid blue;
-    margin-top: 0;
-    width: 500px;
-    background-color: rebeccapurple;
-    float: left
 }
-span.line{
-    border: 4px solid red;
-    border-bottom-color: yellow;
-    border-left-width: 1px;
-    padding-left: 16px;
-    margin-left: 10px
+article{
+    width: auto;
+    margin-right: 210px;
+    margin-left: 150px;
+    border: 1px solid red;
+}
+aside{
+    width: 210px;
+    float: left;
+}
+footer{
+    clear: both;
 }
