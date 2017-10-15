@@ -1,34 +1,70 @@
-*{
-    margin: 0;padding: 0;word-wrap: break-word;
-}
-.min{
-    min-width: 600px;
-    max-width: 1100px;
+*{margin: 0;padding: 0;box-sizing: border-box;}
+.main{
+    width: 960px;
     margin: 0 auto;
 }
-#three{
+#he{
     width: 100%;
+    background-color: #FF7000;
     float: left;
 }
-#two{
-    width: 100%;
-    float: left;
-    margin-right: -210px;
+#sec1{
+    height: 300px;
+    border: 1px solid #F7E096;
 }
-nav{
-    width: 150px;
+section#sec2 article{
     float: left;
-    border: 1px solid blue;
+    width: 320px;
+    padding: 0 10;
+    background-color:#fff;
+    border: 2px solid #f7be84;
+    border-left: 0px;
+    border-right: 0px;
 }
-article{
-    width: auto;
-    margin-right: 210px;
-    margin-left: 150px;
-    border: 1px solid red;
+section#sec2 article:nth-child(1){border-left: 2px solid #f7be84;}
+section#sec2 article:nth-child(3){border-right: 2px solid #f7be84;}
+section#sec2 article .inner {
+    margin:10px 20px;
+    padding:5px;
+    background:#fff;
+    border:5px solid;
+    }
+section#sec2 article:nth-child(1) .inner{
+    border-color:#d7dd6f;
 }
-aside{
-    width: 210px;
+section#sec2 article:nth-child(2) .inner{
+    border-color:#f6dec5;
+}
+section#sec2 article:nth-child(3) .inner{
+    border-color:red;
+}
+
+section#sec3 article{
+    width: 240px;
     float: left;
+    padding: 0 10px;
+    border: 2px solid #f7be84;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+section#sec3 article:nth-child(1){border-left: 2px solid #f7be84;}
+section#sec3 article:nth-child(4){border-right: 2px solid #f7be84;}
+section#sec3 article .inner{
+    padding: 10px 20px;
+    margin: 10px 20px;
+}
+section#sec3 article:nth-child(1) .inner{
+    background-color: rgb(204, 70, 70);
+}
+section#sec3 article:nth-child(2) .inner{
+    background-color: rgb(149, 221, 54);
+}
+section#sec3 article:nth-child(3) .inner{
+    background-color: rgb(54, 154, 221);
+}
+section#sec3 article:nth-child(4) .inner{
+    background-color: rgb(207, 54, 221);
 }
 footer{
     clear: both;
